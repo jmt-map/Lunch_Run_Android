@@ -25,30 +25,35 @@
 
         <TextView
             android:layout_width="wrap_content"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="아이디"
             android:textColor="#262626"/>
+
         <EditText
             android:id="@+id/et_id"
             android:hint="id"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:textColor="#262626"
-            android:layout_marginTop="10dp"/>
+            android:textColor="#262626"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="비밀번호"
             android:textColor="#262626"/>
+
         <EditText
             android:id="@+id/et_pwd"
             android:hint="password"
             android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:textColor="#262626"
-            android:layout_marginTop="10dp"/>
+            android:textColor="#262626"/>
 
         <LinearLayout
             android:layout_marginTop="10dp"
@@ -82,13 +87,13 @@
 
 
     <LinearLayout
-        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
         android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/tv_find_id"
             android:layout_gravity="center"
